@@ -34,7 +34,7 @@ def MergeTwoLists(list1, list2):
             list1 = list1.next
         else:
             current.next = list2
-            list2 = list.next
+            list2 = list2.next
         
         current = current.next
 
